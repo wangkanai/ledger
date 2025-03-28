@@ -6,5 +6,8 @@
     <File Path="Ledger.slnx" />
     <File Path="LICENSE" />
     <File Path="README.md" />
+    <File Path=".editorconfig" />
+    <File Path=".gitignore" />
+    <File Path=".github\workflows\dotnet.yml" />
   </Folder>
 </Solution>
