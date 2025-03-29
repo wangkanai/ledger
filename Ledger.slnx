@@ -1,5 +1,6 @@
 <Solution>
   <Folder Name="/.solutions/">
+    <Project Path="tests\Functional\Wangkanai.Ledger.FunctionalTests.csproj" Type="Classic C#" />
     <File Path="Directory.Build.props" />
     <File Path="Directory.Build.targets" />
     <File Path="Directory.Packages.props" />
@@ -10,4 +11,10 @@
     <File Path=".gitignore" />
     <File Path=".github\workflows\dotnet.yml" />
   </Folder>
+  <Project Path="benchmark\Wangkanai.Ledger.Benchmark.csproj" Type="Classic C#" />
+  <Project Path="src\Application\Wangkanai.Ledger.Application.csproj" Type="Classic C#" />
+  <Project Path="src\Domain\Wangkanai.Ledger.Domain.csproj" Type="Classic C#" />
+  <Project Path="src\Infrastructure\Wangkanai.Ledger.Infrastructure.csproj" Type="Classic C#" />
+  <Project Path="src\Root\Wangkanai.Ledger.csproj" Type="Classic C#" />
+  <Project Path="tests\Unit\Wangkanai.Ledger.UnitTests.csproj" Type="Classic C#" />
 </Solution>
