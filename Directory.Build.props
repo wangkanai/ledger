@@ -1,7 +1,29 @@
 <Project>
-  <!-- See https://aka.ms/dotnet/msbuild/customize for more details on customizing your build -->
-  <PropertyGroup>
+	<PropertyGroup>
+		<Company>Wangkanai</Company>
+		<Authors>Sarin Na Wangkanai</Authors>
+		<Copyright>©2014-2025 Sarin Na Wangkanai, All rights reserved</Copyright>
 
+		<RepositoryType>git</RepositoryType>
+		<RepositoryUrl>git://github.com/wangkanai/ledger</RepositoryUrl>
 
-  </PropertyGroup>
+		<PackageProjectUrl>https://github.com/wangkanai/ledger</PackageProjectUrl>
+		<PackageLicense>https://github.com/wangkanai/wangkanai/blob/main/LICENSE</PackageLicense>
+		<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<SuppressNETCoreSdkPreviewMessage>true</SuppressNETCoreSdkPreviewMessage>
+		<PublishRepositoryUrl>true</PublishRepositoryUrl>
+		<EmbedUntrackedSources>true</EmbedUntrackedSources>
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+		<AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
+	</PropertyGroup>
 </Project>
