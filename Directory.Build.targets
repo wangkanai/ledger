@@ -19,10 +19,6 @@
 		<Using Include="Xunit"/>
 	</ItemGroup>
 
-	<!-- GitHub Source Link -->
-	<ItemGroup>
-		<PackageReference Include="Microsoft.SourceLink.GitHub"/>
-	</ItemGroup>
 	<!-- xUnit Tests-->
 	<ItemGroup Condition="$(MSBuildProjectName.Contains('Tests'))">
 		<PackageReference Include="Microsoft.AspNetCore.TestHost"/>
@@ -33,5 +29,10 @@
 		<PackageReference Include="coverlet.collector"/>
 		<PackageReference Include="coverlet.msbuild"/>
 		<PackageReference Include="FluentAssertions"/>
+	</ItemGroup>
+
+	<!-- GitHub Source Link -->
+	<ItemGroup>
+		<PackageReference Include="Microsoft.SourceLink.GitHub"/>
 	</ItemGroup>
 </Project>

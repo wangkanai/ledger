@@ -1,6 +1,6 @@
 ﻿namespace Wangkanai.Ledger.Domain;
 
-public class Class1
+public class ChartOfAccount
 {
 
 }
