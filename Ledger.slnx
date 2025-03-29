@@ -1,4 +1,7 @@
 <Solution>
+  <Folder Name="/.github/">
+    <File Path=".github\workflows\dotnet.yml" />
+  </Folder>
   <Folder Name="/.solutions/">
     <File Path="Directory.Build.props" />
     <File Path="Directory.Build.targets" />
