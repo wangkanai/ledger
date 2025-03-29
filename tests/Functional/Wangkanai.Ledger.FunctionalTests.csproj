@@ -11,4 +11,8 @@
     <Using Include="Xunit" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Root\Wangkanai.Ledger.csproj" />
+  </ItemGroup>
+
 </Project>
