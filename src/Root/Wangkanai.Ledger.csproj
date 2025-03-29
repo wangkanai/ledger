@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<ItemGroup>
-		<ProjectReference Include="..\Infrastructure\Wangkanai.Ledger.Infrastructure.csproj" />
+		<ProjectReference Include="..\Infrastructure\Wangkanai.Ledger.Infrastructure.csproj" PrivateAssets="all" />
 	</ItemGroup>
 
 </Project>

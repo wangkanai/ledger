@@ -3,6 +3,6 @@
 		<IsPackable>false</IsPackable>
 	</PropertyGroup>
 	<ItemGroup>
-		<ProjectReference Include="..\Application\Wangkanai.Ledger.Application.csproj" />
+		<ProjectReference Include="..\Application\Wangkanai.Ledger.Application.csproj"  PrivateAssets="all"/>
 	</ItemGroup>
 </Project>

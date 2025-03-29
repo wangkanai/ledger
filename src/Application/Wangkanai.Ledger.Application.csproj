@@ -4,6 +4,6 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\Domain\Wangkanai.Ledger.Domain.csproj" />
+		<ProjectReference Include="..\Domain\Wangkanai.Ledger.Domain.csproj"  PrivateAssets="all"/>
 	</ItemGroup>
 </Project>
