@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Infrastructure\Wangkanai.Ledger.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
