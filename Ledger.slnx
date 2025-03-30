@@ -13,6 +13,7 @@
     <File Path=".github\workflows\dotnet.yml" />
     <File Path="build.ps1" />
     <File Path="sign.ps1" />
+    <File Path="version.ps1" />
   </Folder>
   <Folder Name="/tests/">
     <Project Path="tests\Functional\Wangkanai.Ledger.FunctionalTests.csproj" Type="Classic C#" />
