@@ -1,4 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<IsPackable>false</IsPackable>
+	</PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Wangkanai.System" />
     <PackageReference Include="Wangkanai.Domain" />
