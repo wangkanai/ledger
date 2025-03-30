@@ -1,23 +1,23 @@
 <Project>
-  <PropertyGroup>
-    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
-  </PropertyGroup>
-  <ItemGroup>
-    <!--sourcelink-->
-    <PackageVersion Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
-    <!--tests -->
-    <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.13.0" />
-    <PackageVersion Include="Microsoft.AspNetCore.TestHost" Version="8.0.5" />
-    <PackageVersion Include="Moq" Version="4.20.72" />
-    <PackageVersion Include="xunit" Version="2.9.3" />
-    <PackageVersion Include="xunit.runner.visualstudio" Version="3.0.2" PrivateAssets="all" />
-    <PackageVersion Include="coverlet.collector" Version="6.0.2" PrivateAssets="all" />
-    <PackageVersion Include="coverlet.msbuild" Version="6.0.2" PrivateAssets="all" />
-    <PackageVersion Include="FluentAssertions" Version="6.12.0" />
-    <!--benchmark-->
-    <PackageVersion Include="BenchmarkDotNet" Version="0.13.12" />
+	<PropertyGroup>
+		<ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+	</PropertyGroup>
+	<ItemGroup>
+		<!--source link-->
+		<PackageVersion Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
+		<!--tests-->
+		<PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.13.0" />
+		<PackageVersion Include="Microsoft.AspNetCore.TestHost" Version="9.0.3" />
+		<PackageVersion Include="xunit" Version="2.9.3" />
+		<PackageVersion Include="xunit.runner.visualstudio" Version="3.0.2" PrivateAssets="All" />
+		<PackageVersion Include="coverlet.collector" Version="6.0.4" PrivateAssets="All" />
+		<PackageVersion Include="coverlet.msbuild" Version="6.0.4" PrivateAssets="All" />
+		<PackageVersion Include="FluentAssertions" Version="8.2.0" />
+		<PackageVersion Include="Moq" Version="4.20.72" />
+		<!--benchmark-->
+		<PackageVersion Include="BenchmarkDotNet" Version="0.14.0" />
 		<!--wangkanai-->
 		<PackageVersion Include="Wangkanai.System" Version="5.1.0" />
 		<PackageVersion Include="Wangkanai.Domain" Version="4.6.0" />
-  </ItemGroup>
+	</ItemGroup>
 </Project>

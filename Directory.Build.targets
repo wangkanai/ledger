@@ -26,14 +26,14 @@
 
 	<!-- xUnit Tests-->
 	<ItemGroup Condition="$(MSBuildProjectName.Contains('Tests'))">
-		<PackageReference Include="Microsoft.AspNetCore.TestHost"/>
 		<PackageReference Include="Microsoft.NET.Test.Sdk"/>
-		<PackageReference Include="Moq"/>
+		<PackageReference Include="Microsoft.AspNetCore.TestHost"/>
 		<PackageReference Include="xunit"/>
 		<PackageReference Include="xunit.runner.visualstudio"/>
 		<PackageReference Include="coverlet.collector"/>
 		<PackageReference Include="coverlet.msbuild"/>
 		<PackageReference Include="FluentAssertions"/>
+		<PackageReference Include="Moq"/>
 	</ItemGroup>
 
 </Project>
