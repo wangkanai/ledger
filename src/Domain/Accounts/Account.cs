@@ -4,11 +4,31 @@ namespace Wangkanai.Ledger.Domain.Accounts;
 
 public sealed class Account
 {
-	public Account                     Parent   { get; private set; }
-	public Dictionary<string, Account> Children { get; private set; }
-	public List<Post> 		  Posts    { get; private set; }
+	private Account()
+	{
+		Children = new SortedDictionary<string, Account>();
+		Posts    = new List<Post>();
+	}
 
-	public string Name { get; private set; }
-	public string Note { get; set; }
-	public Account(string accountName, decimal balance) { }
+	public Account(string name, string note) : this()
+	{
+		Depth = 0;
+		Name  = name;
+		Note  = note;
+	}
+
+	public Account(Account parent, string name, string note) : this(name, note)
+	{
+		Parent = parent;
+		Depth  = parent.Depth + 1;
+	}
+
+	public Account? Parent { get; private set; }
+	public string   Name   { get; private set; } = null!;
+	public string   Note   { get; set; }         = null!;
+	public int      Depth  { get; private set; }
+
+	public IDictionary<string, Account> Children { get; private set; }
+
+	public IList<Post> Posts { get; private set; }
 }
