@@ -8,7 +8,7 @@
 
 	<!-- GitHub Source Link -->
 	<ItemGroup>
-		<PackageReference Include="Microsoft.SourceLink.GitHub"/>
+		<PackageReference Include="Microsoft.SourceLink.GitHub" PrivateAssets="all"/>
 	</ItemGroup>
 
 	<ItemGroup Condition="$(MSBuildProjectName.Contains('Benchmark'))">
