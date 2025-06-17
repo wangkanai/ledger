@@ -2,10 +2,9 @@
 
 @using System.ComponentModel.DataAnnotations
 @using Microsoft.AspNetCore.Identity
-@using Wangkanai.Ledger.Data
 
-@inject SignInManager<ApplicationUser> SignInManager
-@inject UserManager<ApplicationUser> UserManager
+@inject SignInManager<LedgerUser> SignInManager
+@inject UserManager<LedgerUser> UserManager
 @inject IdentityRedirectManager RedirectManager
 @inject ILogger<LoginWith2fa> Logger
 
@@ -46,7 +45,7 @@
 
 @code {
     private string? message;
-    private ApplicationUser user = default!;
+    private LedgerUser user = default!;
 
     [SupplyParameterFromForm]
     private InputModel Input { get; set; } = new();

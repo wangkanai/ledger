@@ -5,6 +5,7 @@
 
 .idea/
 .vscode/
+Migrations/
 # User-specific files
 .DS_Store
 *.rsuser

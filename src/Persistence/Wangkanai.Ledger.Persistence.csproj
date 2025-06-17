@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+		<RootNamespace>Wangkanai.Ledger.Persistence</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\Wangkanai.Ledger.Domain.csproj" />
+    <ProjectReference Include="..\Infrastructure\Wangkanai.Ledger.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,11 +1,10 @@
 using Microsoft.AspNetCore.Identity;
-using Wangkanai.Ledger.Data;
 
 namespace Wangkanai.Ledger.Components.Account;
 
-internal sealed class IdentityUserAccessor(UserManager<ApplicationUser> userManager, IdentityRedirectManager redirectManager)
+internal sealed class IdentityUserAccessor(UserManager<LedgerUser> userManager, IdentityRedirectManager redirectManager)
 {
-    public async Task<ApplicationUser> GetRequiredUserAsync(HttpContext context)
+    public async Task<LedgerUser> GetRequiredUserAsync(HttpContext context)
     {
         var user = await userManager.GetUserAsync(context.User);
 
