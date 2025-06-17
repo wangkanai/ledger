@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Wangkanai.Ledger.Client.Pages;
 using Wangkanai.Ledger.Components;
 using Wangkanai.Ledger.Components.Account;
-using Wangkanai.Ledger.Data;
+using Wangkanai.Ledger.Persistence;
 
 var builder = WebApplication.CreateBuilder(args);
 

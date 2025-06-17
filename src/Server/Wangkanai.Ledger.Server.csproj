@@ -20,8 +20,4 @@
 		<ProjectReference Include="..\Persistence\Wangkanai.Ledger.Persistence.csproj" />
 	</ItemGroup>
 
-	<ItemGroup>
-	  <Folder Include="Data\" />
-	</ItemGroup>
-
 </Project>

@@ -8,7 +8,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Primitives;
 using Wangkanai.Ledger.Components.Account.Pages;
 using Wangkanai.Ledger.Components.Account.Pages.Manage;
-using Wangkanai.Ledger.Data;
 
 namespace Microsoft.AspNetCore.Routing;
 

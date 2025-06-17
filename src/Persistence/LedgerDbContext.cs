@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 using Wangkanai.Ledger.Identity;
 
-namespace Wangkanai.Ledger.Data;
+namespace Wangkanai.Ledger.Persistence;
 
 public class LedgerDbContext(DbContextOptions<LedgerDbContext> options) : IdentityDbContext<LedgerUser>(options)
 {
