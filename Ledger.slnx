@@ -23,7 +23,9 @@
   </Folder>
   <Project Path="benchmark\Wangkanai.Ledger.Benchmark.csproj" Type="Classic C#" />
   <Project Path="src\Application\Wangkanai.Ledger.Application.csproj" Type="Classic C#" />
+  <Project Path="src\Client\Wangkanai.Ledger.Client.csproj" Type="Classic C#" />
   <Project Path="src\Domain\Wangkanai.Ledger.Domain.csproj" Type="Classic C#" />
   <Project Path="src\Infrastructure\Wangkanai.Ledger.Infrastructure.csproj" Type="Classic C#" />
   <Project Path="src\Root\Wangkanai.Ledger.csproj" Type="Classic C#" />
+  <Project Path="src\Server\Wangkanai.Ledger.Server.csproj" Type="Classic C#" />
 </Solution>
