@@ -17,7 +17,7 @@
     <!--benchmark-->
     <PackageVersion Include="BenchmarkDotNet" Version="0.14.0" />
     <!--wangkanai-->
-    <PackageVersion Include="Wangkanai.System" Version="5.4.0" />
-    <PackageVersion Include="Wangkanai.Domain" Version="5.0.0-Beta-5" />
+    <PackageVersion Include="Wangkanai.System" Version="5.7.0" />
+    <PackageVersion Include="Wangkanai.Domain" Version="5.0.0-Beta-7" />
   </ItemGroup>
 </Project>
