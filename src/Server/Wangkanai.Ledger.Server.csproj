@@ -16,6 +16,12 @@
 
 	<ItemGroup>
 		<ProjectReference Include="..\Client\Wangkanai.Ledger.Client.csproj" />
+		<ProjectReference Include="..\Domain\Wangkanai.Ledger.Domain.csproj" />
+		<ProjectReference Include="..\Persistence\Wangkanai.Ledger.Persistence.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Data\" />
 	</ItemGroup>
 
 </Project>

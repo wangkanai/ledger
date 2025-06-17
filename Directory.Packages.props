@@ -16,8 +16,10 @@
     <PackageVersion Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="$(FrameworkVersion)" />
     <PackageVersion Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="$(FrameworkVersion)" />
     <!--efcore-->
-    <PackageVersion Include="Microsoft.EntityFrameworkCore.Tools" Version="$(FrameworkVersion)" />
-    <PackageVersion Include="Microsoft.EntityFrameworkCore.Sqlite" Version="$(FrameworkVersion)" />
+		<PackageVersion Include="Microsoft.EntityFrameworkCore.Design" Version="$(FrameworkVersion)" PrivateAssets="all" />
+		<PackageVersion Include="Microsoft.EntityFrameworkCore.Tools" Version="$(FrameworkVersion)" PrivateAssets="all" />
+		<PackageVersion Include="Microsoft.EntityFrameworkCore.Relational" Version="$(FrameworkVersion)" />
+		<PackageVersion Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.4" />
     <!--tests-->
     <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.14.0" />
     <PackageVersion Include="Microsoft.AspNetCore.TestHost" Version="9.0.5" />
